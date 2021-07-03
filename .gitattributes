@@ -1,0 +1,9 @@
+*.ckpt filter=lfs diff=lfs merge=lfs -text
+pretrained_models/speech_separation/exp/train_chimera_my_tag/checkpoints-v0.ckpt filter=lfs diff=lfs merge=lfs -text
+pretrained_models/speech_separation/exp_16/train_chimera_my_tag/checkpoints-v2.ckpt filter=lfs diff=lfs merge=lfs -text
+pretrained_models/asr-crdnn-rnnlm-librispeech/asr.ckpt filter=lfs diff=lfs merge=lfs -text
+pretrained_models/asr-crdnn-rnnlm-librispeech/lm.ckpt filter=lfs diff=lfs merge=lfs -text
+/node_modules/electron/* filter=lfs diff=lfs merge=lfs -text
+/node_modules/@ffmpeg-installer/* filter=lfs diff=lfs merge=lfs -text
+/node_modules/@ffmpeg-installer/linux-x64/ffmpeg filter=lfs diff=lfs merge=lfs -text
+node_modules/electron/dist/electron filter=lfs diff=lfs merge=lfs -text

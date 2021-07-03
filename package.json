@@ -1,0 +1,23 @@
+{
+  "name": "gui",
+  "version": "1.0.0",
+  "description": "Graphic User Interface for Meeting Recording Converter",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Alexandros Tsiavos , Nikolaos Pitsianis",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "csv-parser": "^3.0.0",
+    "electron": "^12.0.2",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "jsdom": "^16.5.3",
+    "load": "^1.0.2",
+    "md5": "^2.3.0",
+    "python-shell": "^3.0.0",
+    "wfplayer": "^2.0.9"
+  }
+}

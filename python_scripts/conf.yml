@@ -1,0 +1,32 @@
+data:
+  n_src: 2
+  sample_rate: 8000
+  train_dir: data/2speakers/wav8k/min/train-360
+  valid_dir: data/2speakers/wav8k/min/dev
+filterbank:
+  kernel_size: 256
+  n_filters: 256
+  stride: 64
+main_args:
+  exp_dir: ./pretrained_models/speech_separation/exp/train_chimera_my_tag/
+  help: null
+masknet:
+  dropout: 0.3
+  embedding_dim: 40
+  hidden_size: 600
+  n_layers: 4
+  n_src: 2
+  rnn_type: lstm
+  take_log: true
+optim:
+  lr: 0.0001
+  optimizer: rmsprop
+  weight_decay: 0.0
+positional arguments: {}
+training:
+  batch_size: 9
+  early_stop: true
+  epochs: 100
+  half_lr: true
+  loss_alpha: 1.0
+  num_workers: 8
